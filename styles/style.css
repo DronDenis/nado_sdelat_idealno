@@ -30,11 +30,11 @@ h1 {
     width: 100%;
     height: 100%;
     font-family: Raleway, sans-serif;
-    font-weight: bolder;
+    font-weight: bold;
     text-transform: uppercase;
     font-size: 116px;
     line-height: 136.18px;
-    letter-spacing: 3.5%;
+    letter-spacing: 0.035em;
     text-align: center;
     display: flex;
     flex-flow: column;
@@ -58,7 +58,7 @@ span:first-child {
     cursor: default;
 }
 
-span:last-of-type:hover::before {
+.page:hover::before {
     content: "На самом деле нет.\AВажнее &mdash; научиться ошибаться.";
     white-space: pre;
     font-family: Raleway, sans-serif;
@@ -67,6 +67,7 @@ span:last-of-type:hover::before {
     text-transform: initial;
     word-spacing: normal;
     text-align: left;
+    letter-spacing: normal;
     line-height: 35px;
     position: absolute;
     background-color: rgb(255, 255, 255);
@@ -94,5 +95,5 @@ span:last-of-type::after {
     object-position: center;
     box-sizing: content-box;
     position: absolute;
-    z-index: -2;
+    z-index: -1;
 }
