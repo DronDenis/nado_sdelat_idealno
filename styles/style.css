@@ -66,8 +66,10 @@ span:last-of-type:hover::before {
     font-weight: normal;
     font-size: 35px;
     text-transform: initial;
+    word-spacing: normal;
+    text-align: left;
     line-height: 35px;
-    position: fixed;
+    position: absolute;
     background-color: rgb(255, 255, 255);
     padding: 36px 44px;
     top: 182px;
