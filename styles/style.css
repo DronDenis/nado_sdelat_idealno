@@ -31,6 +31,7 @@ h1 {
     height: 100%;
     font-family: Raleway, sans-serif;
     font-weight: bolder;
+    text-transform: uppercase;
     font-size: 116px;
     line-height: 136.18px;
     letter-spacing: 3.5%;
@@ -45,10 +46,6 @@ h1 {
 
 span:first-child {
     padding-top: 60px;
-}
-
-.uppercase {
-    text-transform: uppercase;
 }
 
 .page:hover {
@@ -74,7 +71,7 @@ span:last-of-type:hover::before {
     background-color: rgb(255, 255, 255);
     padding: 36px 44px;
     top: 182px;
-    left: auto;
+    right: 20px;
     z-index: 3;
     border: solid 2px rgb(0, 0, 0);
     border-radius: 20px;
