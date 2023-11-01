@@ -47,11 +47,16 @@ span:first-child {
     padding-top: 60px;
 }
 
-.page-background-color:hover {
+.uppercase {
+    text-transform: uppercase;
+}
+
+.page:hover {
     position: absolute;
     z-index: 2;
     color: rgba(76, 76, 76, 1);
     height: 100%;
+    width: 100%;
     background-color: rgba(255, 255, 255, 0.3);
     background-size: cover;
     background-repeat: no-repeat;
@@ -63,6 +68,7 @@ span:last-of-type:hover::before {
     font-family: Raleway, sans-serif;
     font-weight: normal;
     font-size: 35px;
+    text-transform: initial;
     line-height: 35px;
     position: fixed;
     background-color: rgb(255, 255, 255);
@@ -84,7 +90,7 @@ span:last-of-type::after {
 
 .video {
     width: 100%;
-    height: auto;
+    height: 100%;
     object-fit: cover;
     object-position: center;
     box-sizing: content-box;
